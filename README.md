@@ -31,3 +31,4 @@ This works for any wrappers that use parens, curly braces or square brackets.
 *   Currently JavaScript only, but can easily add more FileTypes
 *   Creates a marker with the letter `x`
 *   Only works for multi-line wrappers, not e.g. `f = () => { return 1 }, () => { return 2 }`
+*   Doesn't support whitespace at the end of the line at present
